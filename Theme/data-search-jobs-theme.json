@@ -1,0 +1,47 @@
+﻿{
+  "name": "data-search-jobs-theme",
+  "dataColors": [
+    "#0F76D7",
+    "#094780",
+    "#F4A08A",
+    "#EE6C4D",
+    "#049570",
+    "#E92F42",
+    "#F07581",
+    "#FFC000"
+  ],
+  "bad": "#FDE8EA",
+  "neutral": "#FFF5D5",
+  "good": "#E6FEF8",
+  "textClasses": {
+    "label": { "color": "#605E5C", "fontFace": "Calibri" },
+    "callout": { "fontFace": "Calibri", "fontSize": 16 },
+    "title": { "fontFace": "Calibri", "fontSize": 13 },
+    "header": { "fontFace": "Calibri" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#FFFFFF" } },
+            "titleSize": 13
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Available",
+            "backgroundColor": { "solid": { "color": "#F8F8FF" } },
+            "transparency": 0
+          },
+          {
+            "$id": "Applied",
+            "backgroundColor": { "solid": { "color": "#094780" } },
+            "foregroundColor": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
